@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-12">
                 <asp:GridView ID="gvCustomer" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="Solid" Style="text-align: center; width: 100%;" BorderWidth="5px" CellPadding="5" CellSpacing="5" AutoGenerateColumns="False" CaptionAlign="Top" AllowPaging="True"
-                    EnableSortingAndPagingCallbacks="True" PageSize="5" HorizontalAlign="Left">
+                    EnableSortingAndPagingCallbacks="True" PageSize="5" HorizontalAlign="Left" AllowSorting="True">
                     <AlternatingRowStyle BorderStyle="Solid" HorizontalAlign="Center" VerticalAlign="Middle" />
                     <Columns>
                         <asp:BoundField DataField="CustomerID" HeaderText="Customer ID" />
